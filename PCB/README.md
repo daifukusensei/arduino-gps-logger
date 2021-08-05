@@ -1,8 +1,8 @@
 # Project Pluto: EasyEDA Project and Gerber File
 
 <p align="center">
-  <img src="./component-images/Project_Pluto_PCB_front.JPG" width="300"/>
-  <img src="./component-images/Project_Pluto_PCB_rear.JPG" width="300"/>
+  <img src="../component-images/Project_Pluto_PCB_front.JPG" width="300"/>
+  <img src="../component-images/Project_Pluto_PCB_rear.JPG" width="300"/>
 </p>
 
 - **Project-Pluto-EasyEDA-project.zip**
