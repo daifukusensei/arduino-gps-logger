@@ -1,4 +1,4 @@
-# Project Pluto: Arduino GPS w/ microSD card logging and Bluetooth
+# Project Pluto: Arduino GPS w/ microSD logging and Bluetooth
 This is Project Pluto: an Arduino-based battery-powered GPS data-logger with customizable settings and Bluetooth pairing to mobile phone or compatible DSLR.
 
 The finished product is self-contained on a printed PCB in a 3D-printed enclosure, with majority of components plugged into headers to aid in possible future upgrades and enable repurposing of components.
