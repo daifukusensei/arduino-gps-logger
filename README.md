@@ -83,20 +83,21 @@ I had to do the following to compile against the Arduino Nano Every, though thes
 </p>
 
 Due to the overlapping of the Arduino Nano Every and SPI microSD card adaptor on opposing sides of the PCB, I suggest building in the following sequence:
-1. Print this repository's STL files; I forget settings used, but note the following:
+1. Upload [Arduino-sketch.ino](./Arduino-sketch.ino) to Arduino Nano Every
+2. Print this repository's STL files; I forget settings used, but note the following:
     - Wall thickness should be adjusted to accommodate heat-set inserts
     - Supports are required only for [Project-Pluto-enclosure-top.stl](./STL/Project-Pluto-enclosure-top.stl)
     - I've applied gluestick to the printer's bed
-2. Insert heat-set inserts to holes on printed [Project-Pluto-enclosure-top.stl](./STL/Project-Pluto-enclosure-top.stl)
-3. [Print a PCB](https://jlcpcb.com/) from this repository's Gerber file, with the following settings:
+3. Insert heat-set inserts to holes on printed [Project-Pluto-enclosure-top.stl](./STL/Project-Pluto-enclosure-top.stl)
+4. [Print a PCB](https://jlcpcb.com/) from this repository's Gerber file, with the following settings:
     - 2 layers
     - 1.6mm PCB thickness
-4. Solder **220Ω resistors**, **2N2222 NPN transistor** and **2-pin SPST rocker switch** in their respective footprints on the PCB
-5. Solder all **straight female headers** from the [Parts List](#Parts-List) to each component's respective footprint on the PCB, except for the microSD card adaptor and HC-05 Bluetooth module
-6. Solder **right-angle female headers** to the footprints of the **HC-05 Bluetooth module** and **microSD card adaptor**, slightly tilting back the latter to clear the Arduino Nano Every female header's solder joints
-7. Solder **SMT AA battery holder**, ensuring correct orientation of terminals according to footprint on PCB
-8. Trim legs of each LED so base rests flush with female headers
-9. Plug-in and screw-down (where required) remaining components:
+5. Solder **220Ω resistors**, **2N2222 NPN transistor** and **2-pin SPST rocker switch** in their respective footprints on the PCB
+6. Solder all **straight female headers** from the [Parts List](#Parts-List) to each component's respective footprint on the PCB, except for the microSD card adaptor and HC-05 Bluetooth module
+7. Solder **right-angle female headers** to the footprints of the **HC-05 Bluetooth module** and **microSD card adaptor**, slightly tilting back the latter to clear the Arduino Nano Every female header's solder joints
+8. Solder **SMT AA battery holder**, ensuring correct orientation of terminals according to footprint on PCB
+9. Trim legs of each LED so base rests flush with female headers
+10. Plug-in and screw-down (where required) remaining components:
     - HC-05 Bluetooth module
     - u-blox NEO-6M GPS module
     - LLC
@@ -106,9 +107,9 @@ Due to the overlapping of the Arduino Nano Every and SPI microSD card adaptor on
     - SSD1306 0.96" 128x64 I2C OLED display
     - SPI microSD card adaptor
     - 4-key button-board module
-10. Recess the completed unit into the front half of the enclosure, being careful to ensure the LEDs slip properly into their respective cavities
-11. Insert AA batteries
-12. Screw-down enclosure with 12mm M2 screws (and washers, to avoid fracturing the enclosure)
+11. Recess the completed unit into the front half of the enclosure, being careful to ensure the LEDs slip properly into their respective cavities
+12. Insert AA batteries
+13. Screw-down enclosure with 12mm M2 screws (and washers, to avoid fracturing the enclosure)
 
 ## Operating Instructions
 ### Specifications and Requirements
