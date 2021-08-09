@@ -86,7 +86,7 @@ Due to the overlapping of the Arduino Nano Every and SPI microSD card adaptor on
 1. Upload [Arduino-sketch.ino](./Arduino-sketch.ino) to Arduino Nano Every
 2. Print this repository's STL files; I forget settings used, but note the following:
     - Wall thickness should be adjusted to accommodate heat-set inserts
-    - Supports are required only for [Project-Pluto-enclosure-top.stl](./STL/Project-Pluto-enclosure-top.stl)
+    - Supports are required only for [Project-Pluto-enclosure-bottom.stl](./STL/Project-Pluto-enclosure-bottom.stl)
     - I've applied gluestick to the printer's bed
 3. Insert heat-set inserts to holes on printed [Project-Pluto-enclosure-top.stl](./STL/Project-Pluto-enclosure-top.stl)
 4. [Print a PCB](https://jlcpcb.com/) from this repository's Gerber file, with the following settings:
