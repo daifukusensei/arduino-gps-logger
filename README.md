@@ -21,7 +21,7 @@ On a whim and for no particular reason, I've named it Project Pluto.
 - Long-pressing of individual buttons to quickly toggle key settings (logging, Bluetooth or LED state)
 
 ## Repository Contents
-- [C++ source code](./Arduino-sketch.ino) for uploading to an Arduino or compatible clone
+- [C++ source code](./arduino-gps-logger.ino) for uploading to an Arduino or compatible clone
 - [EasyEDA project](./PCB) for modifying the PCB schematic
 - [Fritzing circuit diagram](./Fritzing-circuit-diagram.fzz)
 - [Gerber file](./PCB) for printing a PCB
@@ -83,7 +83,7 @@ I had to do the following to compile against the Arduino Nano Every, though thes
 </p>
 
 Due to the overlapping of the Arduino Nano Every and SPI microSD card adaptor on opposing sides of the PCB, I suggest building in the following sequence:
-1. Upload [Arduino-sketch.ino](./Arduino-sketch.ino) to Arduino Nano Every
+1. Upload [arduino-gps-logger.ino](./arduino-gps-logger.ino) to Arduino Nano Every
 2. Print this repository's STL files; I forget settings used, but note the following:
     - Wall thickness should be adjusted to accommodate heat-set inserts
     - Supports are required only for [Project-Pluto-enclosure-bottom.stl](./STL/Project-Pluto-enclosure-bottom.stl)
